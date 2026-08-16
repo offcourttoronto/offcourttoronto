@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Offcourt Toronto is a youth-led support space for athletes navigating the mental side of sport." />
+    <title>Offcourt Toronto — More than the game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Offcourt Toronto home"><span class="brand-mark">O</span>FFC<span class="brand-light">O</span>URT<span class="brand-place">Toronto</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#why">Why Offcourt</a><a href="#stories">Stories</a><a href="#toolkit">Toolkit</a><a class="nav-cta" href="#share">Share yours</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">A youth-led athlete support space · based in Toronto, for everywhere</p>
+          <h1>The game is loud.<br /><em>You’re allowed to be human.</em></h1>
+          <p class="intro">Offcourt is a place for athletes to talk honestly about pressure, confidence, burnout, injuries—and everything that happens beyond the scoreboard.</p>
+          <div class="button-row"><a class="button button-primary" href="#stories">Hear athlete stories <span>↘</span></a><a class="text-link" href="#share">Share your story <span>→</span></a></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="arc arc-one"></div><div class="arc arc-two"></div><div class="court-line line-one"></div><div class="court-line line-two"></div>
+          <p class="hero-art-word">OFF<br />COURT</p><span class="hero-art-note">You are<br />more than<br />your sport.</span>
+        </div>
+      </section>
+
+      <section id="why" class="manifesto">
+        <p class="section-number">01 / WHY WE EXIST</p>
+        <div><h2>There’s more to an athlete than a highlight reel.</h2><p>Competitive sport can bring joy, belonging, and purpose. It can also bring pressure that is hard to name. We created Offcourt because athletes deserve room for the whole truth—not just the wins.</p><p>We’re anonymous by choice, so the focus stays where it belongs: on the stories, the support, and the community.</p></div>
+      </section>
+
+      <section id="stories" class="stories section-dark">
+        <div class="section-heading"><div><p class="section-number">02 / REAL TALK</p><h2>Stories from<br /><em>the other side</em> of sport.</h2></div><a class="text-link light" href="#share">Add your voice <span>→</span></a></div>
+        <div class="story-grid">
+          <article class="story-card featured"><p class="card-label">COMING SOON · FEATURED CONVERSATION</p><div class="story-orbit"><span>01</span></div><h3>What no one tells you about competing at the next level.</h3><p>An honest conversation with a Team Canada athlete and Cornell commit about expectation, identity, and staying grounded.</p><a href="#share" class="card-link">Get notified <span>↗</span></a></article>
+          <article class="story-card quote"><p class="quote-mark">“</p><blockquote>I thought being tough meant keeping it all in. Turns out, talking to someone was the bravest thing I did.</blockquote><p class="card-label">ANONYMOUS ATHLETE · SOCCER</p></article>
+          <article class="story-card topic"><p class="card-label">ON THE BENCH</p><h3>When an injury takes more than your season.</h3><a href="#toolkit" class="card-link">Explore the toolkit <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section id="toolkit" class="toolkit"><div class="toolkit-title"><p class="section-number">03 / THE TOOLKIT</p><h2>Small things<br />that can help.</h2><p>Not perfect answers. Just practical starting points for the moments that feel big.</p></div><div class="tool-list">
+        <details open><summary><span>01</span> Pre-game pressure <b>+</b></summary><p>Name it instead of fighting it. Try: “I’m feeling nervous because this matters to me.” Then pick one controllable focus for the first five minutes.</p></details>
+        <details><summary><span>02</span> The post-loss spiral <b>+</b></summary><p>Give yourself a short reset before analysing the game. Eat, hydrate, rest, and talk to yourself like you would a teammate.</p></details>
+        <details><summary><span>03</span> Burnout and overload <b>+</b></summary><p>Feeling drained is information, not failure. Tell a trusted adult, coach, teammate, or support person what is taking the most out of you.</p></details>
+        <details><summary><span>04</span> Confidence dips <b>+</b></summary><p>Keep a proof list: skills you have built, hard moments you survived, and people who see your effort. Revisit it when one performance starts defining everything.</p></details>
+      </div></section>
+
+      <section id="share" class="share"><p class="section-number">04 / YOUR TURN</p><h2>Your story could be<br /><em>someone’s permission slip.</em></h2><p>Big or small, anonymous or named: tell us what the mental side of sport has taught you. We may feature selected stories with your permission.</p><form id="story-form"><label>Name or nickname <input name="name" autocomplete="name" placeholder="Anonymous is welcome" /></label><label>Sport <input name="sport" placeholder="e.g., Basketball" /></label><label>Your story <textarea name="story" required placeholder="Start wherever you want..."></textarea></label><button class="button button-primary" type="submit">Send my story <span>↗</span></button><p id="form-message" role="status"></p></form></section>
+
+      <aside class="support-note"><div><p class="eyebrow">A note on support</p><h2>You don’t have to handle a crisis alone.</h2></div><p>Offcourt is peer support and education—not medical care. If you’re in immediate danger, call 9-1-1. In Canada, call or text 9-8-8 for free, 24/7 suicide-crisis support. <a href="https://988.ca/" target="_blank" rel="noreferrer">Visit 9-8-8 ↗</a></p></aside>
+    </main>
+    <footer><a class="brand" href="#top"><span class="brand-mark">O</span>FFC<span class="brand-light">O</span>URT<span class="brand-place">Toronto</span></a><p>For athletes. Beyond the game.</p><a href="https://www.instagram.com/offcourttoronto/" target="_blank" rel="noreferrer">Instagram ↗</a><p class="copyright">© <span id="year"></span> Offcourt Toronto</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
